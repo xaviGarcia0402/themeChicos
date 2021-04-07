@@ -1,20 +1,20 @@
 $(document).ready(function(){
     var myObj = {
             'subcat-1': [
-                {'name':'Habilidades ensambles', 'imagen': '/theme_chicos/static/src/img/primeros-ensambles_2.png', 'alt': 'Subcategoria1 de Categaria1'},
-                {'name':'Peluches', 'imagen': '/theme_chicos/static/src/img/peluches_2.png', 'alt': 'Subcategoria2 de Categaria1'},
-                {'name':'Primeras Habilidades', 'imagen': '/theme_chicos/static/src/img/primeras-habilidades_2.png', 'alt': 'Subcategoria3 de Categaria1'},
-                {'name':'Habilidades de equilibrio', 'imagen': '/theme_chicos/static/src/img/equilibrio_2.png', 'alt': 'Subcategoria4 de Categaria1'},
-                {'name':'Mobiliario', 'imagen': '/theme_chicos/static/src/img/mobiliario.png', 'alt': 'Subcategoria5 de Categaria1'},
-                {'name':'Habilidades logicas', 'imagen': '/theme_chicos/static/src/img/logica_2.png', 'alt': 'Subcategoria5 de Categaria1'}
+                {'name':'Habilidades ensambles', 'imagen': '/themeChicos/static/src/img/primeros-ensambles_2.png', 'alt': 'Subcategoria1 de Categaria1'},
+                {'name':'Peluches', 'imagen': '/themeChicos/static/src/img/peluches_2.png', 'alt': 'Subcategoria2 de Categaria1'},
+                {'name':'Primeras Habilidades', 'imagen': '/themeChicos/static/src/img/primeras-habilidades_2.png', 'alt': 'Subcategoria3 de Categaria1'},
+                {'name':'Habilidades de equilibrio', 'imagen': '/themeChicos/static/src/img/equilibrio_2.png', 'alt': 'Subcategoria4 de Categaria1'},
+                {'name':'Mobiliario', 'imagen': '/themeChicos/static/src/img/mobiliario.png', 'alt': 'Subcategoria5 de Categaria1'},
+                {'name':'Habilidades logicas', 'imagen': '/themeChicos/static/src/img/logica_2.png', 'alt': 'Subcategoria5 de Categaria1'}
             ],
             'subcat-2': [
-                {'name':'Habilidades de construcción', 'imagen': '/theme_chicos/static/src/img/construccion_2.png', 'alt': 'Subcategoria1 de Categaria2'},
-                {'name':'Habilideades artisticas', 'imagen': '/theme_chicos/static/src/img/artistica_2.png', 'alt': 'Subcategoria2 de Categaria2'},
-                {'name':'Habilidades de fisica', 'imagen': '/theme_chicos/static/src/img/aire-libre_2.png', 'alt': 'Subcategoria3 de Categaria2'},
-                {'name':'Habilidades socio-emocionales', 'imagen': '/theme_chicos/static/src/img/2-4.png', 'alt': 'Subcategoria4 de Categaria2'},
-                {'name':'Habilidades cognitivas', 'imagen': '/theme_chicos/static/src/img/didactica_2.png', 'alt': 'Subcategoria5 de Categaria2'},
-                {'name':'Mobiliario', 'imagen': '/theme_chicos/static/src/img/mobiliario_2.png', 'alt': 'Subcategoria6 de Categaria2'}
+                {'name':'Habilidades de construcción', 'imagen': '/themeChicos/static/src/img/construccion_2.png', 'alt': 'Subcategoria1 de Categaria2'},
+                {'name':'Habilideades artisticas', 'imagen': '/themeChicos/static/src/img/artistica_2.png', 'alt': 'Subcategoria2 de Categaria2'},
+                {'name':'Habilidades de fisica', 'imagen': '/themeChicos/static/src/img/aire-libre_2.png', 'alt': 'Subcategoria3 de Categaria2'},
+                {'name':'Habilidades socio-emocionales', 'imagen': '/themeChicos/static/src/img/2-4.png', 'alt': 'Subcategoria4 de Categaria2'},
+                {'name':'Habilidades cognitivas', 'imagen': '/themeChicos/static/src/img/didactica_2.png', 'alt': 'Subcategoria5 de Categaria2'},
+                {'name':'Mobiliario', 'imagen': '/themeChicos/static/src/img/mobiliario_2.png', 'alt': 'Subcategoria6 de Categaria2'}
             ]
         }
     $(document).on('click', '.a-linea-m', function (event) {
@@ -39,7 +39,7 @@ $(document).ready(function(){
             renderer: 'svg',
             loop: true,
             autoplay: true,
-            path: '/theme_chicos/static/src/js/home_grande/Entrepiso1.json'
+            path: '/themeChicos/static/src/js/home_grande/Entrepiso1.json'
         });
     }
     if($('#deslizadero_svg').length) {
@@ -48,7 +48,7 @@ $(document).ready(function(){
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: '/theme_chicos/static/src/js/deslizadero_svg/data.json'
+        path: '/themeChicos/static/src/js/deslizadero_svg/data.json'
         });
     }
     if($('#rampa_subcat').length) {
@@ -57,7 +57,7 @@ $(document).ready(function(){
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: '/theme_chicos/static/src/js/rampa_subcat/data.json'
+        path: '/themeChicos/static/src/js/rampa_subcat/data.json'
         });
     }
     if($('#mama-jet').length) {
@@ -66,7 +66,7 @@ $(document).ready(function(){
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: '/theme_chicos/static/src/js/mama-jet/data.json'
+        path: '/themeChicos/static/src/js/mama-jet/data.json'
         });
     }
     $(document).on('click', '.btn-circle', function(){

@@ -2,15 +2,15 @@
 <odoo>
 	<template id="assets_frontend" inherit_id="website.assets_frontend">
 	    <xpath expr="link[last()]" position="after">
-			<link rel="stylesheet" type="text/scss" href="/theme_chicos/static/src/scss/shop-nav.scss"/>
+			<link rel="stylesheet" type="text/scss" href="/themeChicos/static/src/scss/shop-nav.scss"/>
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"/>
-            <link rel="stylesheet" type="text/scss" href="/theme_chicos/static/src/scss/shop_responsive.scss"/>
-            <link rel="stylesheet" type="text/scss" href="/theme_chicos/static/src/scss/shop.scss"/>
-            <link rel="stylesheet" type="text/scss" href="/theme_chicos/static/src/scss/animations.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/themeChicos/static/src/scss/shop_responsive.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/themeChicos/static/src/scss/shop.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/themeChicos/static/src/scss/animations.scss"/>
 	    </xpath>
 		<xpath expr="script[last()]" position="after">
-            <script type="text/javascript" src="/theme_chicos/static/src/js/bodymovin.js"></script>
-            <script type="text/javascript" src="/theme_chicos/static/src/js/shop.js"></script>
+            <script type="text/javascript" src="/themeChicos/static/src/js/bodymovin.js"></script>
+            <script type="text/javascript" src="/themeChicos/static/src/js/shop.js"></script>
         </xpath>
 	</template>
 </odoo>

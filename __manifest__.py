@@ -10,5 +10,5 @@
 		'views/footer.xml'
 	],
   	'category': 'Theme/Creative',
-  	'depends': ['website', 'website_theme_install', 'sale', 'general_custom'],
+  	'depends': ['website', 'website_theme_install', 'sale',],
 }
