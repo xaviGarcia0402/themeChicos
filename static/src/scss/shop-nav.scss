@@ -1,0 +1,268 @@
+@font-face {
+    font-family: 'Neris-SemiBold';
+    src: url('./fonts/Neris-SemiBold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KG Red Hands';
+    src: url('./fonts/KGRedHands.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neris-Black';
+    src: url('./fonts/Neris-Black.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* CSS nav navegador */
+.bg-first {
+  width: 100%;
+}
+
+.bg-second {
+    background-color: #ffd00b !important;
+}
+
+.a-img-linea img, .a-search-top img, .a-cart-top img{
+  width: 28px;
+  margin: 1px;
+}
+
+.img-logo {
+  width: 160px;
+  /*margin-top: -0.9%;*/
+}
+
+.text-slogan {
+  font-family: 'KG Red Hands';
+  color: white  ;
+  padding-bottom: 1rem;
+  letter-spacing: 1px !important;
+}
+
+.childrens {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lst-childrens {
+  list-style: none;
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lst-childrens li {
+  display: inline-block;
+  width: 15%;
+}
+
+.item-children img {
+  width: 45px;
+}
+
+.title-children {
+  font-family: 'Neris-Black';
+  padding: 0px !important;
+  margin: 2px 0px 0px 0px !important;
+  line-height: 0.90 !important;
+  color: #206dbf;
+}
+
+.img-logo-hidden {
+  width: 147px !important;
+}
+
+.img-linea-hidden {
+  margin-top: 27px !important;
+}
+
+.menu-scrollable {
+  transition: transform 0.4s;
+  background-color: #FF4D67;
+}
+
+.menu-scrollable-fixed {
+  transition: transform 0.4s;
+}
+
+.scroll-down .menu-scrollable {
+  transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up .menu-scrollable {
+  transform: none;
+}
+
+.scroll-down .hidden-nav-scrollable {
+  display: none;
+}
+
+.scroll-up .hidden-nav-scrollable {
+  display: flex;
+}
+
+.scroll-down .menu-scrollable-fixed {
+  display: block;
+  transform: translate3d(0, -263%, 0);
+}
+
+.scroll-up .menu-scrollable-fixed {
+  display: none;
+  transform: none;
+}
+
+.a-img-logo-nav-hidden img {
+  width: 127px !important;
+}
+
+.a-img-linea-nav-hidden {
+  margin-top: 27px !important;
+}
+
+.a-img-linea-nav-hidden img {
+  width: 27px !important;
+}
+
+.a-img-logo-nav-hidden, .a-img-linea-nav-hidden  {
+  display: inline-block;
+}
+
+.menu-scrollable-fixed {
+  display: none;
+}
+
+.scroll-down .shop-page  {
+  padding-top: 9.5rem !important;
+}
+
+.scroll-down .nav-cart.active, .scroll-down .nav-cart   {
+  padding-top: 2.5rem !important;
+}
+
+.text-slogan-small {
+  font-family: 'KG Red Hands';
+  color: #1757f9 !important;
+  font-size: 10px;
+  margin-bottom: 0 !important;
+}
+
+.nav-browser-page {
+  width: 100%;
+}
+
+.title-children {
+    font-size: 18px !important;
+}
+
+@media (min-width: 1025px) and (max-width: 1255px) {
+  .childrens {
+    width: 100% !important;
+  }
+
+  .title-children {
+    font-size: 15px !important;
+  }
+}
+
+/*
+    Div de fondo con svg
+*/
+svg {
+    width: 100% !important;
+    min-width: 100% !important;
+    min-height: 100% !important;
+    height: auto !important;
+    z-index: -100 !important;
+    background-size: cover !important;
+    position: relative !important;
+}
+
+.nav-tabs {
+    font-size: 18px !important;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  background-color: #dee2e6 !important;
+}
+
+.link-text-portal {
+  font-family: 'Neris-Black' !important;
+  color: #206dbf !important;
+}
+
+/* general style */
+.vw-100{
+    width: 100vw !important;
+}
+.ml-15px{
+    margin-left: -15px;
+}
+.ml0px{
+    margin-left: 0px;
+    height: 10vh;
+}
+.w-20 {
+    width: 16.6666666666666667% !important;
+}
+.btn-style{
+    color: white;
+    background: transparent;
+    border: none;
+    display: none !important;
+}
+.fs-30px{
+    font-size: 30px;
+}
+.fs-30px:hover{
+    color: white;
+}
+.mx-w-dv{
+    max-height: 13vh;
+}
+.mh-vh{
+    height: 5vh;
+}
+.text-slogan, .description-etapa {
+    font-family: 'KG Red Hands' !important;
+}
+.text-slogan{
+    font-size: 1rem;
+    margin-top: 0.6%;
+}
+.pt-4{
+    padding-top: 0.5rem !important;
+}
+.contenedor{
+  width:90px;
+  height:240px;
+  position:absolute;
+  right:0px;
+  bottom:0px;
+}
+.botonF1{
+  width:60px;
+  height:60px;
+  border-radius:100%;
+  background:#F44336;
+  right:0;
+  bottom:0;
+  position: fixed;
+  margin-right:16px;
+  margin-bottom:16px;
+  border:none;
+  outline:none;
+  color:#FFF;
+  font-size:36px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition:.3s;
+  z-index: 5;
+}

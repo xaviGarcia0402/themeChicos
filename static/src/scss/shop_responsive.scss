@@ -1,0 +1,467 @@
+@media (max-width: 991px){
+    .responsive_nav{
+        display: none !important;
+    }
+    .btn-style{
+        display: inline-block !important;
+    }
+}
+@media (max-width: 631px){
+    .div-etapas-sub_categories{
+        display: inline !important;
+
+    }
+    .list-etapas-sub, .list2-etapas-sub{
+        width: 100%;
+    }
+}
+@media (max-width: 1021px){
+    .subcat-1, .subcat-2, subcat-3{
+        margin-left:  36%;
+    }
+}
+@media (max-width: 1175px){
+    .dv-img-svg{
+        margin-top: 0px !important;
+    }
+}
+@media(max-width: 640px) and (orientation: landscape){
+    .mh-vh{
+        height: 9vh !important;
+    }
+    .ml0px{
+        height: 22vh !important;
+    }
+}
+@media(max-width: 653px) and (orientation: landscape) {
+    .mh-vh{
+        height: 11vh !important;
+    }
+    .ml0px{
+        height: 28vh !important;
+    }
+}
+@media(min-width: 731px) and (max-width: 823px) and (orientation: landscape){
+    .mh-vh{
+        height: 8vh !important;
+    }
+    .ml0px{
+        height: 19vh !important;
+    }
+}
+@media(max-width: 667px) and (orientation: landscape) {
+    .mh-vh{
+        height: 8vh !important;
+    }
+    .ml0px{
+        height: 21vh !important;
+    }
+}
+@media(max-width: 720px) and (orientation: landscape){
+    .mh-vh{
+        height: 8vh !important;
+    }
+    .ml0px{
+        height: 15vh !important;
+    }
+}
+@media(max-width: 360px) and (height: 640px){
+    .dv-img-svg svg{
+        display: none;
+    }
+    .dv-img-svg{
+        /*height:2349px;*/
+        background: #00b8ff;
+    }
+    .movil-responsive{
+        display: inline-block !important;
+        height: 208vh !important;
+    }
+    .deslizadero_svg_class svg{
+        display:inline-block;
+        height: 80vh !important;
+        transform: translate3d(0px, 0px, 0px);
+        margin-top: 31%;
+        margin-left: -17%;
+        z-index: 0 !important;
+    }
+    .mama-jet svg {
+        display: inline-block;
+        height: 23vh !important;
+        transform: translate3d(0px, 0px, 0px);
+        z-index: 0 !important;
+    }
+    .rampa_subcat svg{
+        display: inline-block;
+        height: 31vh !important;
+        transform: translate3d(0px, 0px, 0px);
+        z-index: 0 !important;
+        margin-top: 55% !important;
+        padding-left: 33px;
+    }
+}
+@media (width:411px) and (height: 823px){
+    .rampa_subcat svg {
+        margin-top: 55% !important;
+        padding-left: 13px !important;
+    }
+    .girld-mov-left {
+        top: 29.7% !important;
+        left: 47% !important;
+    }
+    .girld-mov-right {
+        left: 69% !important;
+        top: 30.1% !important;
+    }
+    .mama-jet svg {
+        display: inline-block;
+        height: 23vh !important;
+        transform: translate3d(0px, 0px, 0px);
+        z-index: 0 !important;
+    }
+    .deslizadero_svg_class svg {
+        margin-left: -14% !important;
+    }
+    .videollamada_img {
+        top: 49% !important;
+        left: 65% !important;
+        height: 5% !important;
+    }
+    .img-nubes-fijas {
+        top: 54% !important;
+        left: 63% !important;
+        height: 3% !important;
+    }
+    .maestra-animation {
+        top: 51% !important;
+        left: 84% !important;
+    }
+    .img_isla {
+        height: 6% !important;
+        left: 40% !important;
+        top: 36.5% !important;
+    }
+}
+@media (width: 411px) and (height: 731px){
+    .girld-mov-right {
+        left: 66% !important;
+        top: 28.5% !important;
+    }
+    .girld-mov-left {
+        left: 42% !important;
+        top: 27.5% !important;
+        height: 2.8% !important;
+    }
+    .rampa_subcat svg {
+        display: inline-block !important;
+        height: 32vh !important;
+        transform: translate3d(0px, 0px, 0px) !important;
+        z-index: 0 !important;
+        margin-top: 54.5% 1!important;
+        padding-left: 14px !important;
+    }
+    .img_isla {
+        top: 34.7% !important;
+    }
+}
+@media(width: 411px) {
+    .dv-img-svg svg{
+        display: none;
+    }
+    .dv-img-svg{
+        /*height:2349px;*/
+        background: #00b8ff;
+    }
+    .mama-jet svg {
+        display: inline-block;
+        height: 23vh !important;
+        transform: translate3d(0px, 0px, 0px);
+        z-index: 0 !important;
+    }
+    .movil-responsive{
+        display: inline-block !important;
+        height: 200vh !important;
+    }
+    .deslizadero_svg_class svg{
+        display:inline-block;
+        height: 80vh !important;
+        transform: translate3d(0px, 0px, 0px);
+        margin-top: 31%;
+        margin-left: -17%;
+        z-index: 0 !important;
+    }
+    .rampa_subcat svg {
+        display: inline-block;
+        height: 32vh !important;
+        transform: translate3d(0px, 0px, 0px);
+        z-index: 0 !important;
+        margin-top: 54%;
+    }
+    .rampa_subcat{
+        margin-top: -13px !important;
+    }
+}
+@media(width: 320px){
+    .rampa_subcat svg {
+        margin-top: 56% !important;
+    }
+    .videollamada_img {
+        height: 6%;
+    }
+    .girld-mov-left {
+        top: 63.6% !important;
+        left: 44% !important;
+    }
+    .girld-mov-right {
+        left: 67% !important;
+        top: 65% !important;
+    }
+}
+@media(width: 375px){
+    .dv-img-svg svg{
+        display: none;
+    }
+    .dv-img-svg{
+        /*height:2349px;*/
+        background: #00b8ff;
+    }
+    .movil-responsive{
+        display: inline-block !important;
+        height: 208vh !important;
+    }
+    .deslizadero_svg_class svg {
+        display: inline-block !important;
+        height: 80vh !important;
+        transform: translate3d(0px, 0px, 0px);
+        margin-top: 31%;
+        margin-left: -17%;
+        z-index: 0 !important;
+    }
+    .mama-jet svg {
+        display: inline-block;
+        height: 23vh !important;
+        transform: translate3d(0px, 0px, 0px);
+        z-index: 0 !important;
+    }
+    .rampa_subcat svg{
+        display: inline-block;
+        height: 31vh !important;
+        transform: translate3d(0px, 0px, 0px);
+        z-index: 0 !important;
+        margin-top: 57% !important;
+        padding-left: 33px;
+    }
+    .girld-mov-left {
+        top: 26.8% !important;
+        left: 46% !important;
+    }
+    .girld-mov-right {
+        left: 71% !important;
+        top: 27.4% !important;
+    }
+    .img_isla {
+        left: 40% !important;
+        top: 34% !important;
+    }
+
+}
+@media(width: 375px) and (height: 812px){
+    .dv-img-svg svg{
+        display: none;
+    }
+    .home-pink {
+        height: 8.3% !important;
+        margin-top: -24% !important;
+    }
+    .movil-responsive{
+        display: inline-block !important;
+        height: 200vh !important;
+    }
+    .deslizadero_svg_class svg {
+        margin-left: -11% !important;
+    }
+    .mama-jet svg {
+        display: inline-block;
+        height: 23vh !important;
+        transform: translate3d(0px, 0px, 0px);
+        z-index: 0 !important;
+    }
+    .videollamada_img {
+        top: 50%  !important;
+        left: 68% !important;
+        height: 4% !important;
+    }
+    .img-nubes-fijas {
+        height: 2% !important;
+        top: 54% !important;
+        left: 70% !important;
+    }
+    .maestra-animation {
+        height: 4.8% !important;
+        top: 51.5% !important;
+        left: 85% !important;
+    }
+    .img_isla {
+        left: 40% !important;
+        top: 37% !important;
+    }
+    .rampa_subcat svg {
+        display: inline-block !important;
+        height: 31vh !important;
+        transform: translate3d(0px, 0px, 0px);
+        z-index: 0 !important;
+        margin-top: 56% !important;
+        padding-left: 26px!important;
+    }
+    .girld-mov-left {
+        top: 30.4% !important;
+        left: 46% !important;
+        height: 2.5% !important;
+    }
+    .girld-mov-right {
+        left: 71% !important;
+        top: 31% !important;
+    }
+    .rs_ipx{
+        margin-top: -54% !important;
+    }
+}
+@media(width: 320px) and (height: 568px){
+    .dv-img-svg svg{
+        display: none;
+    }
+    .dv-img-svg{
+        /*height:2349px;*/
+        background: #00b8ff;
+    }
+    .movil-responsive{
+        display: inline-block !important;
+        height: 208vh !important;
+    }
+    .deslizadero_svg_class svg{
+        display:inline-block;
+        height: 80vh !important;
+        transform: translate3d(0px, 0px, 0px);
+        margin-top: 31%;
+        margin-left: -17%;
+        z-index: 0 !important;
+    }
+    .mama-jet svg {
+        display: inline-block;
+        height: 23vh !important;
+        transform: translate3d(0px, 0px, 0px);
+        z-index: 0 !important;
+    }
+    .rampa_subcat svg{
+        display: inline-block;
+        height: 31vh !important;
+        transform: translate3d(0px, 0px, 0px);
+        z-index: 0 !important;
+        margin-top: 55% !important;
+        padding-left: 33px;
+    }
+    .girld-mov-left {
+        top: 25% !important;
+        left: 48% !important;
+    }
+    .girld-mov-right {
+        left: 72% !important;
+        top: 25.8% !important;
+    }
+    .img_isla {
+        top: 32% !important;
+    }
+}
+@media(width: 768px) and (orientation: portrait){
+    .list-etapas li a {
+        padding-top: 30%;
+    }
+    .list-etapas {
+        height: 60% !important;
+    }
+}
+@media(width: 1024px) and (orientation: portrait){
+    .list-etapas li a {
+        padding-top: 30%;
+    }
+    .list-etapas {
+        height: 53% !important;
+    }
+}
+@media(width: 414px){
+    .dv-img-svg svg{
+        display: none;
+    }
+    .img_isla {
+        height: 6% !important;
+        left: 38% !important;
+        top: 35% !important;
+    }
+    .girld-mov-right{
+        height: 2.8% !important;
+        left: 70% !important;
+        top: 28.6% !important;
+    }
+    .girld-mov-left {
+        height: 2.6% !important;
+        top: 27.9% !important;
+        left: 46% !important;
+    }
+    .dv-img-svg{
+        /*height:2349px;*/
+        background: #00b8ff;
+    }
+    .mama-jet svg {
+        display: inline-block;
+        height: 23vh !important;
+        transform: translate3d(0px, 0px, 0px);
+        z-index: 0 !important;
+    }
+    .movil-responsive{
+        display: inline-block !important;
+        height: 200vh !important;
+    }
+    .deslizadero_svg_class svg{
+        display:inline-block;
+        height: 80vh !important;
+        transform: translate3d(0px, 0px, 0px);
+        margin-top: 31%;
+        margin-left: -17%;
+        z-index: 0 !important;
+    }
+    .rampa_subcat svg {
+        display: inline-block;
+        height: 32vh !important;
+        transform: translate3d(0px, 0px, 0px);
+        z-index: 0 !important;
+        margin-top: 56%;
+    }
+    .rampa_subcat{
+        margin-top: -13px !important;
+    }
+}
+@media all and (orientation: portrait){
+    @keyframes mov-left2{
+        from{
+            left: 100%;
+        }
+        to{
+            left: 39%;
+        }
+    }
+}
+@media all and (orientation: landscape){
+    @keyframes mov-left2{
+        from{
+            left: 100%;
+        }
+        to{
+            left: 45%;
+        }
+    }
+}
+@media all{
+    .div-data-etapa {
+        width: 71% !important;
+    }
+}

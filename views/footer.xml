@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="footer_chicos">
+        <footer class="page-footer font-small stylish-color-dark bg-footer-img footer-style-responsive">
+            <div class="container text-center text-md-left">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-xl-3 mx-auto">
+                        <h5 class="text-uppercase mt-3 text-white-f f-neris-black text-center-md">PROPÓSITO</h5>
+                        <p class="p-nosotros text-center-md">
+                            Transformar a las diferentes generaciones por medio de la experiencia del juego para disfrutar: el aprendizaje, la convivencia y el tiempo libre.
+                        </p>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none"/>
+                    <div class="col-12 col-md-12 col-xl-3 mx-auto">
+                        <h5 class="text-uppercase mt-3 f-neris-black text-center-md">VALORES</h5>
+                        <ul class="list-unstyled text-center-md">
+                            <li>
+                                <p class="p-valores">Originalidad</p>
+                            </li>
+                            <li>
+                                <p class="p-valores">Abiertos al cambio</p>
+                            </li>
+                            <li>
+                                <p class="p-valores">Cercanos</p>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled list-inline text-center-md">
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-fb mx-1 a-rrss-bottom" href="https://www.facebook.com/ChicosJuguetesEducativos" target="_blank">
+                                    <img src="/sitio_imagen/static/src/img/icon-fb.png" alt="Facebook"/>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-tw mx-1 a-rrss-bottom" href="https://instagram.com/chicosjugueteseducativos?igshid=10rk64rcdh4q" target="_blank">
+                                    <img src="/sitio_imagen/static/src/img/icon-insta.png" alt="Instragram"/>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-gplus mx-1 a-rrss-bottom" href="mailto:tiendachicosimagen@gmail.com" target="_blank">
+                                    <img src="/sitio_imagen/static/src/img/icon-gmail.png" alt="Email"/>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-gplus mx-1 a-rrss-bottom" href="https://www.youtube.com/channel/UCsUhT8nQFX-l6qC-xAk2IWA" target="_blank">
+                                    <img src="/sitio_imagen/static/src/img/icon-yt.png" alt="Youtube"/>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <hr class="clearfix w-100 d-md-none"/>
+                    <div class="col-12 col-md-12 col-xl-3 mx-auto">
+                        <h5 class="text-uppercase mt-3 f-neris-black text-center-md">HORARIOS</h5>
+                        <ul class="list-unstyled text-center-md">
+                            <li class="p-time-store">
+                                <p class="p-time-store">Lunes - Viernes</p>
+                                <p class="p-time-store">8:00 AM - 5:00 PM</p>
+                            </li>
+                            <li class="p-time-store">
+                                <p class="p-time-store">Sábado</p>
+                                <p class="p-time-store">9:00 AM - 1:00 PM</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <hr class="clearfix w-100 d-md-none"/>
+                    <div class="col-12 col-md-12 col-xl-3 mx-auto">
+                        <h5 class="text-uppercase mt-3 f-neris-black text-center-md">UBICACIÓN</h5>
+                        <ul class="list-unstyled text-center-md">
+                            <li>
+                                <p class="text-location">9a Calle Poniente 3972, San Salvador</p>
+                            </li>
+                            <li class="li-phone">
+                                <a class="text-location" href="tel: +503 2235-3824">Tel: +503 2235-3824</a>
+                            </li>
+                            <li class="li-phone">
+                                <a class="text-location" href="tel: +503 2264-9463">Tel: +503 2264-9463</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-12 col-xl-12">
+                        <div class="hr-div"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-copyright text-center py-3 text-end-footer">© 2020 Copyright:
+                <a href="https://chicosimagen.com"> chicosimagen.com</a>
+            </div>
+        </footer>
+    </template>
+</odoo>

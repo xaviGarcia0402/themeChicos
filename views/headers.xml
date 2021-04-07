@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!-- Barra de navegación para mobil -->
+    <template id="mobil_header">
+        <div class="nav-mobil bg-first">
+            <a class="a-linea-m" href="#">
+                <img class="img-linea-m" src="/theme_chicos/static/src/img/linea.png" alt="Linea"/>
+            </a>
+            <a class="a-logo-m" href="/shop">
+                <img class="img-logo-m" src="/theme_chicos/static/src/img/logo.png" alt="Logo de Imagen"/>
+            </a>
+            <a class="a-cart-m cart-mobil" href="#">
+                <img class="img-cart-m" src="/theme_chicos/static/src/img/cart.png" alt="Carrito de compras"/>
+            </a>
+        </div>
+    </template>
+
+    <!-- Barra de navegación para pagina shop -->
+    <template id="shop_header">
+        <div class="container-fluid">
+            <div class="menu-scrollable vw-100 ml-15px">
+                <div class="row bg-first vw-100 ml0px">
+                    <button class="btn-style a-linea-m" href="#">
+                        <i class="fas fa-bars fs-30px"></i>
+                    </button>
+                    <div class="col-md-12 col-xl-12 text-center pt-4">
+                        <a href="/shop">
+                            <img class="img-logo" src="/theme_chicos/static/src/img/logo.png" alt="Logo de la empresa"/>
+                        </a>
+                    </div>
+                    <div class="col-md-1 col-xl-1 text-right pt-2" id="col-button-header">
+                        <a class="a-search-top" href="#">
+                            <img src="/theme_chicos/static/src/img/lupa.png" alt=""/>
+                        </a>
+                        <a class="a-cart-top cart-scrollable" href="#">
+                            <img src="/theme_chicos/static/src/img/cart.png" alt=""/>
+                        </a>
+                    </div>
+                </div>
+                <div class="row bg-first vw-100 ml0px">
+                    <div class="col-md-12 col-xl-12 text-center pt-1">
+                        <h5 class="text-slogan">Juguetes Educativos</h5>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light vw-100 ml0px bg-second responsive_nav">
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav w-100">
+                            <a class="nav-item nav-link active w-20 " href="/shop" data-toggle="tooltip" data-placement="top" title="Mis lecturas de rechupete">
+                                <div class="col-md-4 col-xl-4 float-left">
+                                    <span class="hvr-buzz-out item-children">
+                                        <img src="/theme_chicos/static/src/img/0-1.png" alt=""/>
+                                    </span>
+                                </div>
+                                <div class="col-md-8 col-xl-8 float-right">
+                                    <p class="title-children">0 - 1</p>
+                                    <p class="title-children">años</p>
+                                </div>
+                            </a>
+                            <a class="nav-item nav-link w-20 " href="/shop/libros-chicos-2-4" data-toggle="tooltip" data-placement="top" title="Leeme, releeme y vuelveme a leer">
+                                <div class="col-md-4 col-xl-4 float-left">
+                                    <span class="hvr-buzz-out item-children">
+                                        <img src="/theme_chicos/static/src/img/2-4.png" alt=""/>
+                                    </span>
+                                </div>
+                                <div class="col-md-8 col-xl-8 float-right">
+                                    <p class="title-children"> 2 - 4</p>
+                                    <p class="title-children">años</p>
+                                </div>
+                            </a>
+                            <a class="nav-item nav-link w-20" href="/shop/libros-chicos-4-5" data-toggle="tooltip" data-placement="top" title="Mis historias con varios finales">
+                                <div class="col-md-4 col-xl-4 float-left">
+                                    <span class="hvr-buzz-out item-children">
+                                        <img src="/theme_chicos/static/src/img/4-5.png" alt=""/>
+                                    </span>
+                                </div>
+                                <div class="col-md-8 col-xl-8 float-right">
+                                    <p class="title-children">4 - 5</p>
+                                    <p class="title-children">años</p>
+                                </div>
+                            </a>
+                            <a class="nav-item nav-link w-20" href="/shop/libros-chicos-6-7" data-toggle="tooltip" data-placement="top" title="Mi orgullo de leer">
+                              <div class="col-md-4 col-xl-4 float-left">
+                                <span class="hvr-buzz-out item-children">
+                                    <img src="/theme_chicos/static/src/img/6-7.png" alt=""/>
+                                </span>
+                              </div>
+                              <div class="col-md-8 col-xl-8 float-right">
+                                <p class="title-children">6 - 7</p>
+                                <p class="title-children">años</p>
+                              </div>
+                            </a>
+                            <a class="nav-item nav-link w-20" href="/shop/libros-chicos-8-9" data-toggle="tooltip" data-placement="top" title="Mi club de lectura">
+                                <div class="col-md-4 col-xl-4 float-left">
+                                    <span class="hvr-buzz-out item-children">
+                                        <img src="/theme_chicos/static/src/img/8-9.png" alt=""/>
+                                    </span>
+                                </div>
+                                <div class="col-md-8 col-xl-8 float-right">
+                                    <p class="title-children">8 - 9</p>
+                                    <p class="title-children">años</p>
+                                </div>
+                            </a>
+                            <a class="nav-item nav-link w-20" href="/shop/libros-chicos-10-12" data-toggle="tooltip" data-placement="top" title="Soy deboradora de libros">
+                                <div class="col-md-4 col-xl-4 float-left">
+                                    <span class="hvr-buzz-out item-children">
+                                        <img src="/theme_chicos/static/src/img/10-12.png" alt=""/>
+                                    </span>
+                                </div>
+                                <div class="col-md-8 col-xl-8 float-right">
+                                    <p class="title-children"> 10 - 12</p>
+                                    <p class="title-children">años</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="menu-scrollable-fixed">
+                <div class="row bg-second">
+                    <div class="col-md-2 col-xl-2">
+                        <div class="row">
+                            <div class="col-md-4 col-xl-2 text-center">
+                                <a class="a-img-linea-nav-hidden ml-xl-2 ml-mb-2" href="#">
+                                    <img src="/theme_chicos/static/src/img/linea-blue.png" alt="Linea"/>
+                                </a>
+                            </div>
+                            <div class="col-md-8 col-xl-10">
+                                <div class="row">
+                                    <div class="col-md-12 col-xl-12">
+                                        <a class="a-img-logo-nav-hidden ml-xl-2 mt-xl-1 mt-md-1" href="/shop">
+                                            <img class="img-logo ml-xl-2" src="/theme_chicos/static/src/img/logo.png" alt="Logo de la empresa"/>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 col-xl-12 mb-xl-1 ml-xl-2 pl-xl-4">
+                                        <p class="text-slogan-small ml-xl-2">Juguetes Educativos</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-xl-9">
+                        <div class="row">
+                            <div class="col-md-12 col-xl-12 text-center mt-xl-3 mt-md-3">
+                                <div class="container childrens">
+                                    <div class="row">
+                                        <div class="col-md-2 col-xl-2 text-center">
+                                            <div class="row">
+                                                <div class="col-md-3 col-xl-3">
+                                                    <a class="hvr-buzz-out item-children" href="#/shop" data-toggle="tooltip" data-placement="top" title="Mis lecturas de rechupete">
+                                                        <img src="/theme_chicos/static/src/img/0-1.png" alt=""/>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-9 col-xl-9">
+                                                    <p class="title-children">0 - 1</p>
+                                                    <p class="title-children">años</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 col-xl-2 text-center">
+                                            <div class="row">
+                                                <div class="col-md-3 col-xl-3">
+                                                    <a class="hvr-buzz-out item-children" href="/shop/libros-chicos-2-4" data-toggle="tooltip" data-placement="top" title="Leeme, releeme y vuelveme a leer">
+                                                        <img src="/theme_chicos/static/src/img/2-4.png" alt=""/>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-9 col-xl-9">
+                                                    <p class="title-children">2 - 4</p>
+                                                    <p class="title-children">años</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 col-xl-2 text-center">
+                                            <div class="row">
+                                                <div class="col-md-3 col-xl-3">
+                                                    <a class="hvr-buzz-out item-children" href="/shop/libros-chicos-4-5" data-toggle="tooltip" data-placement="top" title="Mis historias con varios finales">
+                                                        <img src="/theme_chicos/static/src/img/4-5.png" alt=""/>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-9 col-xl-9">
+                                                    <p class="title-children">4 - 5</p>
+                                                    <p class="title-children">años</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 col-xl-2 text-center">
+                                            <div class="row">
+                                                <div class="col-md-3 col-xl-3">
+                                                    <a class="hvr-buzz-out item-children" href="/shop/libros-chicos-6-7" data-toggle="tooltip" data-placement="top" title="Mi orgullo de leer">
+                                                        <img src="/theme_chicos/static/src/img/6-7.png" alt=""/>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-9 col-xl-9">
+                                                    <p class="title-children">6 - 7</p>
+                                                    <p class="title-children">años</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 col-xl-2 text-center">
+                                            <div class="row">
+                                                <div class="col-md-3 col-xl-3">
+                                                    <a class="hvr-buzz-out item-children" href="/shop/libros-chicos-8-9" data-toggle="tooltip" data-placement="top" title="Mi club de lectura">
+                                                        <img src="/theme_chicos/static/src/img/8-9.png" alt=""/>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-9 col-xl-9">
+                                                    <p class="title-children">8 - 9</p>
+                                                    <p class="title-children">años</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 col-xl-2 text-center">
+                                            <div class="row">
+                                                <div class="col-md-3 col-xl-3">
+                                                    <a class="hvr-buzz-out item-children" href="/shop/libros-chicos-10-12" data-toggle="tooltip" data-placement="top" title="Soy deboradora de libros">
+                                                        <img src="/theme_chicos/static/src/img/10-12.png" alt=""/>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-9 col-xl-9">
+                                                    <p class="title-children">10 - 12</p>
+                                                    <p class="title-children">años</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1 col-xl-1 text-left pt-xl-4 pt-md-4">
+                        <a class="a-search-top" href="#">
+                            <img src="/theme_chicos/static/src/img/lupa-blue.png" alt=""/>
+                        </a>
+                        <a class="a-cart-top a-cart-top-fixed" href="#">
+                            <img src="/theme_chicos/static/src/img/cart-blue.png" alt=""/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <!-- Barra de navegación efecto-libro -->
+    <template id="nav_book_page">
+        <div class="nav-book">
+            <div class="col-menu-book overflow-auto" id="menu-book-dn">
+                <div class="div-close">
+                    <a class="a-close-book" href="#">
+                        <img class="img-close-book" src="/theme_chicos/static/src/img/close.png" alt="Cerrar libro"/>
+                    </a>
+                </div>
+                <div class="div-list-menu">
+                    <ul class="list-menu-book">
+                        <li>
+                            <a href="#">
+                                <img class="hvr-wobble-skew" src="/theme_chicos/static/src/img/home.png" alt="Inicio"/>
+                                <p>INICIO</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/shop">
+                                <img class="hvr-wobble-skew" src="/theme_chicos/static/src/img/shop.png" alt="Tienda"/>
+                                <p>TIENDA</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="a-contact" href="/shop/contact">
+                                <img class="hvr-wobble-skew" src="/theme_chicos/static/src/img/contact.png" alt="Contactanos"/>
+                                <p id="p-contact">CONTACTANOS</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="list-rrss">
+                        <li>
+                            <a class="hvr-wobble-vertical" href="https://www.facebook.com/ChicosJuguetesEducativos" target="_blank">
+                                <img src="/theme_chicos/static/src/img/facebook.png" alt="Facebook"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="hvr-wobble-vertical" href="https://instagram.com/chicosjugueteseducativos?igshid=10rk64rcdh4q" target="_blank">
+                                <img src="/theme_chicos/static/src/img/instagram.png" alt="Instagram"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-menu-category overflow-auto">
+                <div class="div-title-etapas">
+                    <h3>ETAPAS LECTORAS</h3>
+                </div>
+                <div class="div-etapas">
+                    <ul class="list-etapas">
+                        <li>
+                            <a href="#" class="click-btn-subcat" id="subcat-1">
+                                <div class="div-img-etapa">
+                                    <img class="hvr-buzz-out" src="/theme_chicos/static/src/img/0-1.png" alt="Mis lecturas de rechupete"/>
+                                </div>
+                                <div class="div-data-etapa">
+                                    <p class="title-children name-etapa">0 - 1</p>
+                                    <p class="title-children">Mi mundo es el suelo</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="click-btn-subcat" id="subcat-1">
+                                <div class="div-img-etapa">
+                                    <img class="hvr-buzz-out" src="/theme_chicos/static/src/img/2-4.png" alt="Leeme, releeme y vuelveme a leer"/>
+                                </div>
+                                <div class="div-data-etapa">
+                                    <p class="title-children name-etapa">1 - 3</p>
+                                    <p class="title-children">Sintiendo mi mundo</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="list-etapas etapas-green">
+                        <li>
+                            <a href="#" class="click-btn-subcat" id="subcat-2">
+                                <div class="div-img-etapa">
+                                    <img class="hvr-buzz-out" src="/theme_chicos/static/src/img/4-5.png" alt="Mis historias con varios finales"/>
+                                </div>
+                                <div class="div-data-etapa">
+                                    <p class="title-children name-etapa">3 - 4</p>
+                                    <p class="title-children">Imitando el mundo de otros</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="change_unique">
+                            <a href="#" class="click-btn-subcat" id="subcat-2">
+                                <div class="div-img-etapa">
+                                    <img class="hvr-buzz-out" src="/theme_chicos/static/src/img/6-7.png" alt="Mi orgullo de leer"/>
+                                </div>
+                                <div class="div-data-etapa">
+                                    <p class="title-children name-etapa">4 - 7</p>
+                                    <p class="title-children">Experimentando el mundo del aprendizaje</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button class="bnt btn-success btn-circle" id="btn-circle"><i class="fas fa-angle-left"></i></button>
+            <div class="col-menu-sub_categories overflow-auto" id="menu-sub_categories">
+                <div class="div-title-category div-title-etapas d-flex justify-content-center">
+                    <li id="dv-category" class="text-center">
+
+                    </li>
+                </div>
+                <div class="div-etapas-sub_categories">
+                    <ul class="list-etapas-sub">
+
+                    </ul>
+                    <ul class="list2-etapas-sub">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <!-- Barra detalle de carrito de compra -->
+    <template id="nav_cart_page">
+        <div class="nav-cart">
+            <div class="div-transparent"></div>
+            <div class="detail-cart">
+
+            </div>
+        </div>
+    </template>
+
+    <template id="other_header">
+        <div class="row bg-second pl-1">
+            <div class="col-md-2 col-xl-2">
+                <div class="row">
+                    <div class="col-md-4 col-xl-2 text-center">
+                        <a class="a-img-linea-nav-hidden ml-xl-2 ml-mb-2" href="#">
+                            <img src="/theme_chicos/static/src/img/linea-blue.png" alt="Linea"/>
+                        </a>
+                    </div>
+                    <div class="col-md-8 col-xl-10">
+                        <div class="row">
+                            <div class="col-md-12 col-xl-12">
+                                <a class="a-img-logo-nav-hidden ml-xl-2 mt-xl-1 mt-md-1" href="/shop">
+                                    <img class="img-logo ml-xl-2" src="/theme_chicos/static/src/img/logo.png" alt="Logo de la empresa"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-xl-12 mb-xl-1 ml-xl-2 pl-xl-4">
+                                <p class="text-slogan-small ml-xl-2">Juguetes Educativos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 col-xl-9">
+                <div class="row">
+                    <div class="col-md-12 col-xl-12 text-center mt-xl-3 mt-md-3">
+                        <div class="container childrens">
+                            <div class="row">
+                                <div class="col-md-2 col-xl-2 text-center">
+                                    <div class="row">
+                                        <div class="col-md-3 col-xl-3">
+                                            <a class="hvr-buzz-out item-children" href="/shop" data-toggle="tooltip" data-placement="top" title="Lecturas de rechupete">
+                                                <img src="/theme_chicos/static/src/img/0-1.png" alt=""/>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-9 col-xl-9">
+                                            <p class="title-children">0 - 1</p>
+                                            <p class="title-children">años</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-xl-2 text-center">
+                                    <div class="row">
+                                        <div class="col-md-3 col-xl-3">
+                                            <a class="hvr-buzz-out item-children" href="/shop/libros-chicos-2-4" data-toggle="tooltip" data-placement="top" title="Lecturas de rechupete">
+                                                <img src="/theme_chicos/static/src/img/2-4.png" alt=""/>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-9 col-xl-9">
+                                            <p class="title-children">2 - 4</p>
+                                            <p class="title-children">años</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-xl-2 text-center">
+                                    <div class="row">
+                                        <div class="col-md-3 col-xl-3">
+                                            <a class="hvr-buzz-out item-children" href="/shop/libros-chicos-4-5" data-toggle="tooltip" data-placement="top" title="Lecturas de rechupete">
+                                                <img src="/theme_chicos/static/src/img/4-5.png" alt=""/>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-9 col-xl-9">
+                                            <p class="title-children">4 - 5</p>
+                                            <p class="title-children">años</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-xl-2 text-center">
+                                    <div class="row">
+                                        <div class="col-md-3 col-xl-3">
+                                            <a class="hvr-buzz-out item-children" href="/shop/libros-chicos-6-7" data-toggle="tooltip" data-placement="top" title="Lecturas de rechupete">
+                                                <img src="/theme_chicos/static/src/img/6-7.png" alt=""/>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-9 col-xl-9">
+                                            <p class="title-children">6 - 7</p>
+                                            <p class="title-children">años</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-xl-2 text-center">
+                                    <div class="row">
+                                        <div class="col-md-3 col-xl-3">
+                                            <a class="hvr-buzz-out item-children" href="/shop/libros-chicos-8-9" data-toggle="tooltip" data-placement="top" title="Lecturas de rechupete">
+                                                <img src="/theme_chicos/static/src/img/8-9.png" alt=""/>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-9 col-xl-9">
+                                            <p class="title-children">8 - 9</p>
+                                            <p class="title-children">años</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-xl-2 text-center">
+                                    <div class="row">
+                                        <div class="col-md-3 col-xl-3">
+                                            <a class="hvr-buzz-out item-children" href="/shop/libros-chicos-10-12" data-toggle="tooltip" data-placement="top" title="Lecturas de rechupete">
+                                                <img src="/theme_chicos/static/src/img/10-12.png" alt=""/>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-9 col-xl-9">
+                                            <p class="title-children">10 - 12</p>
+                                            <p class="title-children">años</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1 col-xl-1 text-left pt-xl-4 pt-md-4">
+                <a class="a-search-top" href="#">
+                    <img src="/theme_chicos/static/src/img/lupa-blue.png" alt=""/>
+                </a>
+                <a class="a-cart-top cart-other-page" href="#">
+                    <img src="/theme_chicos/static/src/img/cart-blue.png" alt=""/>
+                </a>
+            </div>
+        </div>
+
+    </template>
+
+    <template id="cart_slide">
+        <div class="detail-header">
+            <h5 class="h-title-cart">Mi carrito</h5>
+        </div>
+        <div class="detail-body">
+            <div t-if="not website_sale_order or not website_sale_order.website_order_line" class="alert alert-info">
+                <p class="text-center text-empty-cart">Tu carrito está vacio.</p>
+                <p class="text-center text-animation-cart">Atrévete a comprar nuestros productos.</p>
+            </div>
+            <t t-if="website_sale_order and website_sale_order.website_order_line">
+                <t t-foreach="lines_product" t-as="line">
+                    <div class="item-product">
+                        <div class="item-img">
+                            <span t-field="line.product_id.image_128"
+                                  t-options="{'widget': 'image', 'qweb_img_responsive': False, 'class': 'rounded o_image_64_max mb-2'}" />
+                        </div>
+                        <div class="item-description">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <a class="a-product-name" href="#description-product" data-toggle="collapse" aria-expanded="false" aria-controls="description-product">
+                                        <span t-esc="line.name_short"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <span class="sr-only">Four out of Five Stars</span>
+                                    <i class="fas fa-star bg-start-span start-i"></i>
+                                    <i class="fas fa-star bg-start-span start-i"></i>
+                                    <i class="fas fa-star bg-start-span start-i"></i>
+                                    <i class="fas fa-star bg-start-span start-i"></i>
+                                    <i class="far fa-star bg-start-span start-i"></i>
+                                    <span class="label label-success label-start-number">(61)</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="product-price">
+                                        <span t-esc="line.price_total"
+                                              t-options="{'widget': 'monetary', 'display_currency': website.currency_id}"
+                                        />
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p id="description-product" class="description-product text-justify collapse" t-esc="line.product_template_id.intro_text">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </t>
+                <div class="text-center mb-3">
+                    <span class="h6">
+                        <t t-call="website_sale.total">
+                            <t t-set='hide_coupon'>True</t>
+                        </t>
+                    </span>
+                    <a role="button" class="btn btn-primary" href="/shop/cart">
+                       Ver carrito (<t t-esc="website_sale_order.cart_quantity" /> productos)
+                     </a>
+                </div>
+            </t>
+        </div>
+    </template>
+
+    <template id="header_portal">
+        <div class="row bg-second pl-1">
+            <div class="col-12 col-md-2 col-xl-2">
+                <div class="row">
+                    <div class="col-md-4 col-xl-2 text-center">
+                        <a class="a-img-linea-nav-hidden ml-xl-2 ml-mb-2" href="#">
+                            <img src="/theme_chicos/static/src/img/linea-blue.png" alt="Linea"/>
+                        </a>
+                    </div>
+                    <div class="col-md-8 col-xl-10">
+                        <div class="row">
+                            <div class="col-md-12 col-xl-12">
+                                <a class="a-img-logo-nav-hidden ml-xl-2 mt-xl-1 mt-md-1" href="/shop">
+                                    <img class="img-logo ml-xl-2" src="/theme_chicos/static/src/img/logo.png" alt="Logo de la empresa"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-xl-12 mb-xl-1 ml-xl-2 pl-xl-4">
+                                <p class="text-slogan-small ml-xl-2">Juguetes Educativos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-10 col-xl-10">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-xl-12 text-rigth mt-xl-2 mt-md-3">
+                        <nav class="navbar navbar-expand-md">
+                            <div class="container">
+                                <div class="collapse navbar-collapse" id="top_menu_collapse">
+                                    <!-- FIXME We want menu to open to the right by default (except cases handled in JS) -->
+                                    <ul class="nav navbar-nav ml-auto text-right" id="top_menu">
+                                        <li class="nav-item divider"/>
+                                        <li class="nav-item">
+                                            <a href="/shop" class="nav-link link-text-portal">
+                                                <b>
+                                                    Tienda
+                                                </b>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item divider"/>
+                                        <li class="nav-item">
+                                            <a href="/contact" class="nav-link link-text-portal">
+                                                <b>
+                                                    Contáctanos
+                                                </b>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item divider" t-ignore="true" t-if="not user_id._is_public()"/>
+                                        <li class="nav-item dropdown" t-ignore="true" t-if="not user_id._is_public()">
+                                            <a href="#" class="nav-link dropdown-toggle link-text-portal" data-toggle="dropdown">
+                                                <b>
+                                                    <span t-esc="user_id.name[:23] + '...' if user_id.name and len(user_id.name) &gt; 25 else user_id.name"/>
+                                                </b>
+                                            </a>
+                                            <div class="dropdown-menu js_usermenu link-text-portal" role="menu">
+                                                <a id="o_logout" class="dropdown-item" t-attf-href="/web/session/logout?redirect=/" role="menuitem">Cerrar sesión</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </template>
+
+    <template id="home_header">
+        <div class="container-fluid">
+            <div class="menu-scrollable vw-100 ml-15px">
+                <div class="row bg-first vw-100 ml0px">
+                    <div class="col-md-10 col-xl-10 col-8 text-center pt-4 mx-w-dv">
+                        <a href="/shop">
+                            <img class="img-logo" src="/theme_chicos/static/src/img/logo.png" alt="Logo de la empresa"/>
+                        </a>
+                    </div>
+                    <div class="col-md-1 col-xl-1 text-right pt-2" id="col-button-header">
+                        <a class="a-search-top" href="#">
+                            <img src="/theme_chicos/static/src/img/lupa.png" alt=""/>
+                        </a>
+                        <a class="a-cart-top cart-scrollable" href="#">
+                            <img src="/theme_chicos/static/src/img/cart.png" alt=""/>
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-first vw-100 mh-vh">
+                    <div class="col-md-12 col-xl-12 text-center pt-1">
+                        <h5 class="text-slogan">Juguetes Educativos</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-scrollable-fixed">
+                <div class="row bg-second">
+                    <div class="col-md-2 col-xl-2">
+                        <div class="row">
+                            <div class="col-md-4 col-xl-2 text-center">
+                                <a class="a-img-linea-nav-hidden ml-xl-2 ml-mb-2" href="#">
+                                    <img src="/theme_chicos/static/src/img/linea-blue.png" alt="Linea"/>
+                                </a>
+                            </div>
+                            <div class="col-md-8 col-xl-10">
+                                <div class="row">
+                                    <div class="col-md-12 col-xl-12">
+                                        <a class="a-img-logo-nav-hidden ml-xl-2 mt-xl-1 mt-md-1" href="/shop">
+                                            <img class="img-logo ml-xl-2" src="/theme_chicos/static/src/img/logo.png" alt="Logo de la empresa"/>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 col-xl-12 mb-xl-1 ml-xl-2 pl-xl-4">
+                                        <p class="text-slogan-small ml-xl-2">Juguetes Educativos</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </template>
+</odoo>

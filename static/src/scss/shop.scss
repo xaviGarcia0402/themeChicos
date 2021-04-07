@@ -1,0 +1,1376 @@
+@font-face {
+    font-family: 'KG inimitable Original';
+    src: url('./fonts/KGInimitableOriginal.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KG Red Hands';
+    src: url('./fonts/KGRedHands.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neris-SemiBold';
+    src: url('./fonts/Neris-SemiBold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neris-Black';
+    src: url('./fonts/Neris-Black.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+header {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.nav-imagen {
+  /*background-color: #cce !important;*/
+  padding: 0px !important;
+  margin: 0px !important;
+  position: fixed;
+  width: 100% !important;
+  z-index: 2000;
+}
+
+.nav-mobil {
+  padding: 10px !important;
+  margin: 0px !important;
+  display: none;
+  justify-content: space-between;
+  z-index: 1030;
+}
+
+.a-linea-m img {
+  width: 45px !important;
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.a-cart-m img {
+  padding-top: 6px !important;
+}
+
+.a-linea-m, .a-logo-m, .a-cart-m {
+  display: inline-block;
+}
+
+.nav-browser {
+  padding: 0px !important;
+  margin: 0px !important;
+  display: block;
+}
+
+.col-logo-b {
+  width: 20% !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  padding: 0px 0px 0px 10px !important;
+}
+
+.col-category-b {
+  width: 58% !important;
+  margin: auto !important;
+  padding: 0px !important;
+}
+
+.col-search-b {
+  width: 20% !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  padding: 0px 20px 0px 0px;
+  text-align: right;
+}
+
+.col-logo-b, .col-category-b, .col-search-b {
+  display: inline-block;
+}
+
+.img-linea-b {
+  width: 75px !important;
+}
+
+.img-logo-b {
+  width: 128px !important;
+  margin-top: -15px;
+}
+
+.a-linea-b, .a-logo-b {
+  display: inline-block;
+}
+
+.list-category-b {
+  list-style: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+.list-category-b li {
+  margin: 0px !important;
+  padding: 0px !important;
+  display: inline-block;
+}
+
+.list-category-b li a {
+  padding: 5px;
+}
+
+.list-category-b li a img {
+  width: 45px !important;
+}
+
+.input-search-b, .a-lupa-b {
+  display: inline-block;
+}
+
+.form-search-b {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.input-search-b {
+  display: none;
+}
+
+.img-cart-img {
+  width: 45px !important;
+}
+
+.img-lupa-b {
+  width: 45px !important;
+}
+
+.tooltip-inner {
+  background-color: #545aa4 !important;
+  color: #fff;
+  font-family: 'KG inimitable Original';
+}
+
+.tooltip.top .tooltip-arrow {
+  border-top-color: #545aa4;
+}
+
+.tooltip.right .tooltip-arrow {
+  border-right-color: #545aa4;
+}
+
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #545aa4;
+}
+
+.tooltip.left .tooltip-arrow {
+  border-left-color: #545aa4;
+}
+
+.nav-book {
+  margin: 0px !important;
+  padding: 0px !important;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.nav-book.active {
+  pointer-events: all;
+  z-index: 3000;
+}
+
+.col-menu-book {
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 50% !important;
+  height: 100vh;
+  /*background-color: #0066ff;*/
+  background-color: #ffcc00;
+  transition: all .5s;
+}
+
+.nav-book .col-menu-book {
+  transform: translateX(-100%);
+}
+
+.nav-book.active .col-menu-book {
+  transform: translateX(0);
+}
+
+.col-menu-category {
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 50% !important;
+  height: 100vh;
+  /*background-color: #ffcc00;*/
+  background: #7DEDFF !important;
+  transition: all .5s;
+}
+
+.nav-book .col-menu-category {
+  transform: translateX(100%);
+}
+
+.nav-book.active .col-menu-category {
+  transform: translateX(0);
+}
+
+.col-menu-book, .col-menu-category {
+
+}
+
+.div-close {
+  margin: 0px;
+  padding-top: 8px;
+  padding-left: 8px;
+}
+
+.a-close-book {
+  width: 100%;
+  display: inline-block;
+}
+
+.img-close-book {
+  width: 32px;
+}
+
+.div-list-menu {
+  margin: 6rem 0px 0px 0px;
+  padding: 0px;
+}
+
+.list-menu-book {
+  list-style: none;
+  margin-right: auto;
+  margin-left: -30px;
+  width: 100%;
+}
+
+.list-menu-book li {
+  margin: auto;
+  padding: 0px !important;
+  display: block;
+  text-align: center;
+}
+
+.list-menu-book li a {
+  width: 100%;
+  display: block;
+  text-decoration: none;
+}
+
+.list-menu-book li a img {
+  width: 120px;
+}
+
+.list-menu-book li a p {
+  font-family: 'KG inimitable Original';
+  color: white;
+  font-size: 25px;
+  margin-bottom: 2.5rem;
+}
+
+.a-contact img {
+  margin-left: 16px;
+}
+
+.list-rrss {
+  list-style: none;
+  margin-right: auto;
+  margin-left: -33px;
+  margin-top: 50px !important;
+  width: 100%;
+  text-align: center;
+}
+
+.list-rrss li {
+  margin: 12px;
+  padding: 0px !important;
+  display: inline-block;
+  text-align: center;
+}
+
+.list-rrss li a {
+  width: 100%;
+  display: block;
+  text-decoration: none;
+}
+
+.list-rrss li a img {
+  width: 75px;
+}
+
+.div-title-etapas {
+  display: block;
+  width: 100%;
+  margin: 1.5rem 0px 0px 0px;
+  padding: 2px;
+}
+.etapas-green{
+    background: #00E29C;
+}
+
+.div-title-etapas h3 {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'KG inimitable Original';
+  color: #FF4065;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 15px !important;
+}
+
+.div-etapas {
+  display: block;
+  width: 100%;
+  margin: 20px 0px 0px 0px;
+  padding: 0px;
+  text-align: center;
+  height: 87%;
+}
+
+.list-etapas {
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 0px;
+    height: 66%;
+    margin-bottom: 0rem !important;
+}
+
+.list-etapas li:hover{
+    background: #50DAFF;
+}
+
+.list-etapas li {
+    padding: 0px !important;
+    display: block;
+    /* margin-bottom: 2rem; */
+    height: 50%;
+}
+
+.etapas-green li:hover{
+   background: #0DCCA7 !important;
+}
+
+.list-etapas li a {
+  width: 100%;
+  display: block;
+  text-decoration: none;
+}
+
+.div-img-etapa {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 0px !important;
+  width: auto;
+}
+
+.div-img-etapa img {
+  width: 90px;
+}
+
+.div-data-etapa {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 0px 0px 0px 5px;
+  width: 50%;
+}
+
+.div-img-etapa, .div-data-etapa {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.name-etapa {
+  font-family: 'KG inimitable Original';
+  color: #1B70CC;
+  margin: 0px !important;
+  padding: 0px !important;
+  font-size: 18px !important;
+}
+
+.description-etapa {
+  font-family: 'KG inimitable Original';
+  color: white;
+  margin: 0px !important;
+  padding: 0px !important;
+  font-size: 18px !important;
+}
+
+main {
+  width: 100%;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.shop-page {
+  padding-top: 17.5rem;
+}
+
+.description-page {
+  padding: 0px !important;
+}
+
+.list-products {
+  width: 100%;
+  text-align: center;
+  margin-left: 35px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  /* width: calc(33.33% - 66.5px); */
+  width: 307px;
+  height: 307px;
+  padding: 0px;
+  display: inline-block;
+  border: 2px solid #0071BC;
+  position: relative;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  background: transparent;
+}
+
+.product a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.product a figure {
+  position: relative;
+  transition: all .5s;
+  margin: 12px 0px 0px 12px;
+  z-index: -1;
+}
+
+.product:hover figure {
+  margin: 0px;
+}
+
+.product a figure img {
+  width: 305px;
+  height: 305px;
+  max-width: 305px !important;
+  z-index: -2;
+}
+
+.product-data {
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgba(0, 0, 0, 0.5) 53%, rgba(0, 0, 0, 0.20) 100%);
+  padding-top: 30px;
+}
+
+.product-info {
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 34%;
+}
+
+.name-product {
+  font-family: 'KG Red Hands';
+  color: white;
+  text-align: center;
+  margin: 0px;
+  text-shadow: 0px 0px 9px #151414;
+}
+
+.price-product {
+  font-family: 'KG inimitable Original';
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+.product-link {
+  text-align: right;
+  width: 100%;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.form-add-cart {
+  width: auto;
+}
+
+.a-add-cart img {
+  width: 35px;
+}
+
+.a-view-detail img {
+  width: 30px;
+}
+
+.form-add-cart, .a-view-detail {
+  display: inline-block;
+}
+
+.p-time-store {
+  margin: 0px;
+}
+
+.p-valores {
+  margin: 0px;
+  font-family: 'Neris-SemiBold';
+}
+
+.li-phone a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Neris-SemiBold';
+}
+
+.a-rrss-bottom img {
+  width: 25px;
+}
+
+/** DETALLE DE PRODUCTO **/
+.detail-product {
+  padding-top: 6.5rem;
+}
+
+.product-images {
+  padding: 10px;
+  text-align: center;
+}
+
+.item-product-image img {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slider-product-images .slick-prev::before {
+  content: '‹';
+}
+
+.slider-product-images .slick-next::before {
+  content: '›';
+}
+
+.slider-product-images .slick-prev::before, .slider-product-images .slick-next::before {
+  color: #ffc107;
+  font-size: 100px !important;
+}
+
+.slider-product-images .slick-prev, .slider-product-images .slick-next {
+  top: 30% !important;
+  width: 39px !important;
+  height: 28px !important;
+}
+
+.product-images-nav {
+  width: 100%;
+}
+
+.item-product-image-nav img{
+  width: 50px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.d-name-product {
+  font-family: 'KG inimitable Original';
+  font-size: 28px;
+  padding-top: 11px;
+  color: #1757f9;
+}
+
+.monospaced {
+  font-family: 'Ubuntu Mono', monospaced ;
+}
+
+.col-qty, .col-add-cart, .col-buy-now {
+  width: 33.33% !important;
+  display: inline-block;
+}
+
+.add-to-cart .btn-qty {
+  width: 52px;
+  height: 52px;
+}
+
+.btn-qty {
+  border: 1px solid #ff8f8f;
+  background-color: white !important;
+  border-radius: 8px !important;
+  color: #7584a0;
+  font-family: 'Neris-Black';
+}
+
+.btn-qty-minus i, .btn-qty-plus i {
+  color: #7584a0 !important;
+}
+
+.add-to-cart .btn {
+  border-radius: 0;
+}
+
+.form-add-cart, .form-buy-now {
+  width: 98% !important;
+}
+
+.form-add-cart button {
+  height: 46px !important;
+  width: 100% !important;
+}
+
+.form-buy-now button {
+  height: 46px !important;
+  width: 100% !important;
+}
+
+.h-general-description {
+  font-family: 'KG inimitable Original';
+  font-size: 15px;
+  color: #1757f9;
+}
+
+.bg-start-span {
+  color: #ff8f8f !important;
+}
+
+.w-25 {
+    width: 25% !important;
+}
+
+.w-150 {
+    width: 150px;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table {
+    color: #4f4f4f;
+}
+
+.h-relations-product {
+  font-family: 'KG inimitable Original';
+  font-size: 20px;
+  color: #1757f9;
+}
+
+/*Related products*/
+.related-slick-products {
+  display: flex;
+}
+
+.item-slider {
+  width: auto;
+}
+
+.related-product {
+  /* width: calc(33.33% - 66.5px); */
+  width: 252px !important;
+  height: 252px !important;
+  padding: 0px;
+  border: 2px solid #0071BC;
+  position: relative;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  max-width: 252px !important;
+}
+
+.related-product a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.related-product a figure {
+  position: relative;
+  transition: all .5s;
+  margin: 12px 0px 0px 12px;
+  z-index: -2;
+}
+
+.related-product:hover figure {
+  margin: 0px;
+}
+
+.related-product a figure img {
+  width: 250px;
+  height: 250px;
+  z-index: -2;
+  max-width: 250px !important;
+}
+
+.related-product-data {
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgba(0, 0, 0, .50) 53%, rgba(0, 0, 0, .48) 100%);
+  padding-top: 30px;
+}
+
+.related-product-info {
+    width: 100%;
+    display: block;
+}
+
+.related-name-product {
+  font-family: 'KG inimitable Original';
+  color: white;
+  text-align: center;
+  margin: 0px;
+}
+
+.related-price-product {
+  font-family: 'KG inimitable Original';
+  color: white;
+  text-align: center;
+}
+
+.related-product-link {
+  text-align: right;
+  width: 100%;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.related-form-add-cart {
+  width: 40px !important;
+  float: right;
+  margin-bottom: 10px !important;
+}
+
+.related-a-add-cart img {
+  width: 35px;
+}
+
+/* CHART DETAIL */
+.nav-cart {
+  margin: 0px !important;
+  padding: 0px !important;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  padding-top: 12.5rem !important;
+}
+
+.nav-cart.active {
+  pointer-events: all;
+  z-index: 7;
+}
+
+.div-transparent {
+  width: 75% !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  height: 100vh;
+  background-color: transparent !important;
+  transition: all .5s;
+}
+
+.nav-cart .div-transparent {
+  transform: translateX(-100%);
+}
+
+.nav-cart.active .div-transparent {
+  transform: translateX(0);
+}
+
+.detail-cart {
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 25% !important;
+  height: 100vh;
+  background-color: white !important;
+  transition: all .5s;
+  overflow: scroll;
+}
+
+.nav-cart .detail-cart {
+  transform: translateX(100%);
+}
+
+.nav-cart.active .detail-cart {
+  transform: translateX(0);
+}
+
+.detail-header {
+  margin-top: 4.7rem !important;
+  width: 100% !important;
+}
+
+.h-title-cart {
+  font-family: 'KG inimitable Original';
+  font-size: 17px;
+  color: black;
+  width: 100% !important;
+  text-align: center;
+}
+
+.detail-body {
+  padding: 5px !important;
+  height: 100%;
+}
+
+.item-product {
+  width: 100% !important;
+  margin: 0px !important;
+  padding: 0 1rem;
+}
+
+.item-img {
+  width: auto !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.item-img img {
+  width: 85px !important;
+}
+
+.item-description {
+  width: 74% !important;
+  margin: 0px !important;
+  padding: 0px 0px 0px 10px;
+}
+
+.item-img, .item-description {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.a-product-name {
+  font-family: 'KG inimitable Original';
+  color: black;
+}
+
+.product-price {
+  font-family: 'KG inimitable Original';
+  color: #5f6c87;
+}
+
+.item-total {
+  padding-right: 10px !important;
+}
+
+.total-buy {
+  font-family: 'KG inimitable Original';
+  font-size: 17px;
+  color: black;
+}
+
+.number-total {
+  color: black;
+}
+
+
+/* FOOTER */
+.bg-footer-img   {
+  background-image: url('../img/footer-web-chicos.jpg');
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+
+.text-white-f {
+  font-family: 'KG inimitable Original';
+  color: white;
+}
+
+/* DETALLE DE CARRITO */
+.shopping-cart {
+  padding-top: 6rem;
+}
+
+.shopping-title {
+  text-align: center;
+  font-family: 'KG inimitable Original';
+  color: #0066ff;
+}
+
+.item-product-cart {
+  width: 100%;
+  margin: 0px;
+}
+
+.product-img-cart {
+  width: 90px;
+}
+
+.product-name-cart {
+  font-family: 'KG Red Hands';
+  font-size: 15px !important;
+}
+
+.label-start-number-cart, .start-i-cart {
+  font-size: 10px !important;
+}
+
+.product-description-cart {
+
+}
+
+.product-price-cart {
+  font-family: 'KG Red Hands';
+  padding-top: 8px;
+  font-size: 12px !important;
+  color: #a6a6ea;
+}
+
+.control-qty button {
+  margin: 0px !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.control-qty input {
+  margin: 0px !important;
+  font-family: monospace;
+  border: none !important;
+  text-align: center;
+  background-color: transparent;
+  font-size: 18px !important;
+}
+
+.img-puy {
+  width: 50px;
+}
+
+.title-buy-with {
+  font-family: 'KG Red Hands';
+  font-size: 18px;
+}
+
+.label-invoice {
+  font-family: 'KG Red Hands';
+  font-size: 12px;
+}
+
+.label-invoice-money {
+  font-family: 'KG Red Hands';
+  font-size: 12px;
+  color: #a6a6ea;
+}
+
+.shopping-title-invoice {
+  font-family: 'KG inimitable Original';
+  /*color: #0066ff;*/
+}
+
+.invoice-cart {
+  padding-top: 1px;
+}
+
+.btn-pay-now {
+  font-family: 'KG inimitable Original';
+  font-size: 15px;
+  background-color: #0066ff !important;
+}
+
+.btn-go-shop {
+  font-family: 'KG inimitable Original';
+  font-size: 15px;
+  color: #0066ff !important;
+}
+
+
+/* DETALLE DE VENTA */
+.detail-sale {
+  padding-top: 6rem;
+}
+
+.a-title-step-one {
+  font-family: 'KG Red Hands';
+  font-size: 18px;
+  color: #a6a6ea;
+}
+
+.a-title-step {
+  color: #a6a6ea;
+  text-decoration: none;
+  font-family: 'KG Red Hands';
+}
+
+.btn-continue {
+  background-color: #a6a6ea;
+  color: white;
+  font-family: 'KG Red Hands';
+}
+
+.pay-with {
+  color: #a6a6ea;
+  font-family: 'KG Red Hands';
+}
+
+.title-pay-account {
+
+}
+
+.btn-send {
+  color: white;
+  font-family: 'KG Red Hands';
+  background-color: #a6a6ea;
+  border-color: #a6a6ea;
+}
+
+.thank-you {
+  padding-top: 6rem;
+}
+
+.title-thank-you {
+  font-family: 'KG Red Hands';
+  color: #a6a6ea;
+  font-size: 20px;
+}
+
+.title-page-shop {
+  font-family: 'KG inimitable Original';
+  color: #1757f9;
+  font-size: 22px;
+}
+
+.title-page-year {
+  // color: #ff8f8f;
+  color: #1757f9;
+  font-family: 'KG inimitable Original';
+  font-size: 30px;
+}
+
+.description-category {
+  font-family: 'Neris-SemiBold';
+  color: #073ead;
+  font-size: 20px !important;
+}
+
+.small-description {
+  font-family: 'Neris-SemiBold';
+  color: #7584a0;
+  font-size: 18px !important;
+}
+
+.text-description-product {
+  font-family: 'Neris-SemiBold';
+  color: #7584a0;
+}
+
+.extra-info {
+  font-family: 'KG inimitable Original';
+  color: #1757f9;
+}
+
+.input-comment {
+  border-color: #7584a0 !important;
+}
+
+.item-product-image-nav {
+  width: 55px !important;
+}
+
+.slider-product-images-nav .slick-track {
+  width: auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  transform: none !important;
+}
+
+#buy_now {
+    color: white !important;
+}
+
+.text-nav-tab, .text-btn-send, .text-button-buy, .lbl-comment, .text-extra-info {
+  font-family: 'Neris-SemiBold';
+}
+
+.text-nav-tab {
+  color: #007bff !important;
+}
+
+.col-hidden-movil {
+  display: none;
+}
+
+
+/*
+  CSS FOOTER
+*/
+
+.p-nosotros {
+  font-family: 'Neris-SemiBold';
+  color: white;
+}
+
+.hr-div {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 2px solid white;
+}
+
+.f-neris-black {
+  font-family: 'Neris-Black' !important;
+  color: white;
+}
+
+.p-time-store {
+  font-family: 'Neris-SemiBold';
+  color: white;
+}
+
+.text-location {
+  font-family: 'Neris-SemiBold';
+  color: white;
+}
+
+.p-valores {
+  font-family: 'Neris-SemiBold';
+  color: white;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+.text-end-footer, .text-animation-cart, .text-empty-cart, .text-end-footer a {
+  color: white;
+}
+
+.text-center-md {
+  text-align: left !important;
+}
+
+.page .nav-cart {
+  padding-top: 2.6rem !important;
+}
+
+.btn-primary-img {
+    background-color: #007bff !important;
+    border: #007bff !important;
+}
+
+.a-btn-img {
+    width: 100% !important;
+    padding: 11px !important;
+}
+
+.p-12 {
+    padding: 12px !important;
+}
+
+.text-empty-cart {
+    font-family: 'Neris-SemiBold';
+}
+
+.text-animation-cart {
+    font-family: 'Neris-SemiBold';
+}
+
+/*PASARELA DE PAGO*/
+.title-payment-method {
+    color: #a6a6ea;
+    text-decoration: none;
+    font-family: 'KG Red Hands';
+}
+
+.pm-icon {
+    width: 80px !important;
+    max-width: 80px !important;
+}
+
+.btn-custom {
+  background-color: #a6a6ea;
+  color: white;
+  font-family: 'KG Red Hands';
+}
+
+#no-more-result {
+    font-family: 'KG inimitable Original';
+    color: #0066ff;
+}
+
+.icon-arrow-carousel::before {
+    color: #0066ff !important;
+}
+
+.indicator-carousel {
+    background-color: #0066ff !important;
+}
+
+.carousel-indicators li {
+  box-shadow: none !important;
+}
+
+/*Confirmación de orden*/
+.confirmation-title {
+  text-align: center;
+  font-family: 'KG inimitable Original';
+  color: #0066ff;
+}
+
+.title-confirm-order {
+  color: #a6a6ea;
+  font-family: 'KG Red Hands';
+}
+
+.order-print {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.other-title {
+  font-family: 'KG Red Hands';
+  color: #a6a6ea;
+}
+
+.a-link-imagen {
+  color: #a6a6ea !important;
+}
+
+.text-red-hands {
+  font-family: 'KG Red Hands' !important;
+}
+
+.font-size-10 {
+   font-size: 10px !important;
+}
+
+.font-size-12 {
+   font-size: 12px !important;
+}
+
+.font-size-14 {
+   font-size: 14px !important;
+}
+
+.font-size-16 {
+   font-size: 16px !important;
+}
+
+.font-size-18 {
+   font-size: 18px !important;
+}
+
+.font-size-20 {
+   font-size: 20px !important;
+}
+
+.term-title {
+    font-family: 'KG inimitable Original';
+    color: #0066ff;
+}
+
+.text-phone {
+  font-family: 'Neris-SemiBold';
+}
+
+.black-text {
+    color: black !important;
+}
+
+.w-sm-100 {
+    width: 80% !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.title-process-payment {
+    color: #E94659 !important;
+    font-family: 'KG Red Hands';
+}
+
+.text-process-payment {
+    color: #E94659 !important;
+    font-family: 'Neris-Black';
+    font-size: 18px !important;
+}
+
+.img-payment-process {
+    width: 15% !important;
+}
+
+.dv-img-svg{
+    width: 100% !important;
+    margin-top: -5vh;
+}
+.col-menu-sub_categories{
+    background: #1757F9;
+    height: 100%;
+    width: 0%;
+    transition: width 2s;
+}
+.div-etapas-sub_categories {
+    display: flex;
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+    height: 100%;
+}
+
+.list-etapas-sub {
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    display: block;
+    padding-left: 0px;
+}
+.list2-etapas-sub {
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    display: block;
+    padding-left: 0px;
+}
+
+.list-etapas-sub li {
+    padding: 0px !important;
+    display: block;
+    /*margin-bottom: 2rem;*/
+    height: 30%;
+}
+.list2-etapas-sub li {
+    padding: 0px !important;
+    display: block;
+    /*margin-bottom: 2rem;*/
+    height: 30%;
+}
+
+.name_subcategoria{
+    font-family: 'KG inimitable Original';
+    color: white;
+    margin: 0px !important;
+    padding: 0px !important;
+    font-size: 18px !important;
+}
+/*1406*/
+
+.div-data-etapa-sub{
+    display: block;
+    vertical-align: middle;
+}
+.div-img-etapa img{
+    max-width: 90px !important;
+    max-height: 90px !important;
+}
+header {
+    display: none !important;
+}
+#subcat-1 .div-data-etapa  .name-etapa, #subcat-2 .div-data-etapa  .name-etapa{
+    color: #FFED48 !important;
+}
